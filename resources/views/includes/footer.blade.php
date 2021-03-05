@@ -13,7 +13,7 @@
     </div>
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>2020</span></strong>. Todos los derechos reservados
+            &copy; Copyright <strong><span>2021</span></strong>. Todos los derechos reservados
         </div>
     </div>
 </footer>
