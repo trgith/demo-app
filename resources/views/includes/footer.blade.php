@@ -1,5 +1,5 @@
 <!-- ======= Footer ======= -->
-<footer id="footer" style="margin-top: 20% !important;">
+<footer id="footer" style="margin-top: 10% !important;">
     <div class="footer-top">
         <div class="container">
             <div class="social-links">

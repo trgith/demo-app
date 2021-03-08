@@ -7,60 +7,125 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <form>
-                    <div class="row">
-                        <div class="col">
-                            &nbsp;
-                        </div>
-                        <div class="col">
-                            &nbsp;
-                        </div>
+                <div class="col-12">
+                    <div data-aos="fade-up">
+                        <h3>Encuesta Institucional <?php echo date("Y"); ?> </h3>
                     </div>
-                    <div class="row">
-                        <div class="section-title" data-aos="fade-up">
-                            <h3>Bienvenido</h3>
-                        </div>
-                        <div class="col">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <p>
+                    Instrucciones para la Aplicación de la Encuesta:
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table" style="text-align: justify; text-justify: inter-word;">
+                        <tbody>
+                            <tr>
+                                <th scope="row">I.</th>
+                                <td>
+                                    El cuestionario es de aplicación anónima y está orientado a conocer la percepción del personal operativo de
+                                    las instituciones policiales, de procuración de justicia y del sistema penitenciario de las entidades federativas
+                                    en temas tales como: Perfil, Aspectos socioeconómicos, Profesionalización, Capacitación, Evaluación Policial,
+                                    Equipamiento, Uso de tecnología, Infraestructura, Condiciones laborales, Hábitos y Problemas en el trabajo.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">II.</th>
+                                <td>
+                                    El encuestador o responsable de la aplicación de la encuesta electrónica deberá llenar la totalidad de los
+                                    campos del encabezado de la encuesta.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">III.</th>
+                                <td>
+                                    La encuesta podrá ser aplicada mediante una entrevista preferentemente directa o conjunta del encuestador
+                                    hacia el personal seleccionado, o bien, bajo la metodología que determine el evaluador externo en caso de
+                                    que sea mediante aplicación electrónica.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">IV.</th>
+                                <td>
+                                    En todas las preguntas se presentan respuestas de opción múltiple, por lo que ninguna pregunta puede
+                                    quedar sin contestar, a excepción de aquellas que están condicionadas a la respuesta de otras preguntas.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">V.</th>
+                                <td>
+                                    En caso de que el encuestado no conteste o no sepa la respuesta de la pregunta número l (uno), no deberá
+                                    continuar con la aplicación de la encuesta y en caso de haber contestado la totalidad de la encuesta
+                                    salvo la pregunta número l (uno), la encuesta se deberá considerar NO VÁLIDA, por lo que no deberá ser
+                                    registrada en la base de datos correspondiente.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">VI.</th>
+                                <td>
+                                    Antes de concluir con la aplicación de la encuesta, el encuestador o responsable de la aplicación de la
+                                    encuesta electrónica deberá revisar que todas las preguntas hayan sido contestadas y, en su caso, solicitar
+                                    al encuestado indicar su(s) respuesta(s) correspondiente(s a las pregunta(s) faltante(s) por contestar.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-white">
+                        <div class="card-header bg-dark">Formato del Cuestionario</div>
+                        <div class="card-body">
+                            <table class="table text-dark">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">
+                                            Entidad Federativa: [ ] [ ]<br>
+                                            Anotar la clave de entidades del INEGI
+                                        </td>
+                                        <td class="text-center">
+                                            No. de Folio: [ ] [ ] [ ] [ ] <br>
+                                            Número consecutivo [ ]
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Firma del Encuestador: <br>
+                                            No aplica para aplicación electrónica de la encuesta
+                                        </td>
+                                        <td class="text-center">
+                                            Fecha de Aplicación: [ ] [ ] / [ ] [ ] / <?php echo date("Y"); ?> <br>
+                                            Considerar el formato (dd/mm/aaaa)
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            &nbsp;
-                        </div>
-                        <div class="col">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p style="text-align: justify; text-justify: inter-word;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nisl mi. Etiam mollis vehicula efficitur. Nulla vehicula dolor elit, vitae ultricies dui mattis id. Suspendisse lacinia dignissim ex, vitae varius diam cursus nec. Praesent scelerisque nibh tortor, eu ultrices velit cursus eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque consequat tortor ut gravida pulvinar. Nulla volutpat dapibus justo, sed varius diam molestie sed. Sed nec magna eros. Suspendisse ultrices blandit quam vitae tempor. Vivamus volutpat magna dui, in ultrices orci porttitor ut.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <ul class="list-group list-group-flush" style="width: 60% !important; border: 1px black">
-                            <li class="list-group-item"><strong>Instrucciones:</strong></li>
-                            <li class="list-group-item"><strong>1. </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nisl mi. </li>
-                            <li class="list-group-item"><strong>2. </strong>Etiam mollis vehicula efficitur. Nulla vehicula dolor elit, vitae ultricies dui mattis id.</li>
-                            <li class="list-group-item"><strong>3. </strong>Suspendisse lacinia dignissim ex, vitae varius diam cursus nec.</li>
-                            <li class="list-group-item"><strong>4. </strong> Praesent scelerisque nibh tortor, eu ultrices velit cursus eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</li>
-                        </ul>
-                    </div><br>
-                    <div class="row">
-                        <div class="col">
-                            &nbsp;
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-dark" style="margin-left: 65% !important;">
-                                <a href="/cuestionario1">
-                                    Comenzar Cuestionario
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-dark">
+                        <a href="/cuestionario1">
+                            Comenzar Cuestionario
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
     </section>

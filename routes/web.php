@@ -23,7 +23,7 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/sistema_aplicacion_institucional', function () {
+Route::get('/modulo_institucional', function () {
     return view('sistema_aplicacion_institucional');
 });
 
@@ -33,6 +33,10 @@ Route::get('/monitoreo_seguimiento', function () {
 
 Route::get('/cuestionario1', function () {
     return view('cuestionarios.cuestionario1');
+});
+
+Route::get('/modulo_integral', function () {
+    return view('modulo_integral');
 });
 
 
