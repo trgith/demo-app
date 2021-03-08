@@ -24,7 +24,7 @@
                                         <div class="form-group">
                                             <input type="password" name="pass" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Contraseña">
                                         </div><br>
-                                        <button type="button" id="sendUser" class="btn btn-primary btn-block" style="background-color: #13322B !important;">Entrar</button>
+                                        <button type="button" id="sendUser" class="btn btn-primary btn-block" style="background-color: #13322B !important;">Ingresar</button>
                                         <div class="sign-up">
                                             Puedes registrate <a href="/register">aquí</a>
                                         </div>
