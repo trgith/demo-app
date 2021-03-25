@@ -45,17 +45,21 @@ $(document).ready(function(){
                     case 'policia@gmail.com':
                         location.href = '/modulo_institucional';
                         break;
-                    /* PARA EL CASO DE UN EVALUADOR EXTERNO */
-                    case 'evaluador_externo@gmail.com':
-                        location.href = '/monitoreo_seguimiento';
+                    /* PARA EL CASO DE UN FUNCIONARIO ESTATAL */
+                    case 'funcionario_estatal@gmail.com':
+                        location.href = '/modulo_integral';
+                        break;
+                    /* PARA EL CASO DE UN FUNCIONARIO FEDERAL */
+                    case 'funcionario_federal@gmail.com':
+                        location.href = '/modulo_integral';
                         break;
                     /* PARA EL CASO DE UN ENLACE ESTATAL */
                     case 'enlace_estatal@gmail.com':
                         location.href = '/monitoreo_seguimiento';
                         break;
-                    /* PARA EL CASO DE UN FUNCIONARIO FEDERAL */
-                    case 'funcionario_federal@gmail.com':
-                        location.href = '/modulo_integral';
+                    /* PARA EL CASO DE UN EVALUADOR EXTERNO */
+                    case 'evaluador_externo@gmail.com':
+                        location.href = '/monitoreo_seguimiento';
                         break;
                     default :
                         location.href = '/';

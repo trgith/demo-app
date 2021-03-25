@@ -8,8 +8,7 @@
 <main id="main">
     <section id="about" class="about">
         <div class="container">
-            <div class="row">
-                <div class="global-container" style="height: 39em !important; border: none; width: 50% !important; margin: auto !important; margin-top: 5% !important;">
+
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coat_of_arms_of_Mexico_%28golden_linear%29.svg/1024px-Coat_of_arms_of_Mexico_%28golden_linear%29.svg.png" style="width: 25%; display: block; margin: auto !important;">
                     <div class="card login-form" style="border: none;">
                         <div class="card-body">
@@ -39,8 +38,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+
         </div>
     </section>
 </main>

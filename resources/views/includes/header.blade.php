@@ -32,14 +32,22 @@
 <body>
 
 <!-- ======= Inicia Hero Section ======= -->
-<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark py-3" style="background-color: #0C231E !important;">
-    <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" style="width: 10%; margin-left: 3% !important;">
-    <div class="collapse navbar-collapse" style="position: absolute; right: 3%;">
-        <div class="navbar-nav">
-            <a href="/" class="nav-item nav-link">Inicio</a>
-            <a href="/login" class="nav-item nav-link">Acceso</a>
-            <a href="/" class="nav-item nav-link">Contacto</a>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #0C231E !important;">
+    <a class="navbar-brand" href="/">
+        <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" style="width: 50%; margin-left: 5%;">
+    </a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="margin-right: 5% !important;">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Acceso</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
     </div>
 </nav>
 <!-- ======= Termina Hero Section ======= -->

@@ -2168,3 +2168,15 @@ input[type=radio][value="option5"]:checked+label:after {
 .progreso {
   background-color: #5AB652 !important;
 }
+
+
+@media (max-width: 375px) {
+  #header {
+    height: 45px !important;
+    width: 100% !important;
+  }
+
+  .mobile-nav-toggle {
+    top: 10px !important;
+  }
+}

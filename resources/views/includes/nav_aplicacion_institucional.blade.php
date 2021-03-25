@@ -1,9 +1,6 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center" style="background-color: #13322b !important;">
     <div class="container">
-        <div class="logo d-block d-lg-none">
-            <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-        </div>
 
         <!-- Menu de navegacion -->
         <nav class="nav-menu d-none d-lg-block">
