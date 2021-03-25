@@ -41,16 +41,20 @@ $(document).ready(function(){
             success: function(data){
                 var response = data.response;
                 switch (data){
+                    /* PARA EL CASO DE UN POLICIA */
                     case 'policia@gmail.com':
                         location.href = '/modulo_institucional';
                         break;
+                    /* PARA EL CASO DE UN EVALUADOR EXTERNO */
                     case 'evaluador_externo@gmail.com':
                         location.href = '/monitoreo_seguimiento';
                         break;
+                    /* PARA EL CASO DE UN ENLACE ESTATAL */
                     case 'enlace_estatal@gmail.com':
                         location.href = '/monitoreo_seguimiento';
                         break;
-                    case 'funcionario_publico@gmail.com':
+                    /* PARA EL CASO DE UN FUNCIONARIO FEDERAL */
+                    case 'funcionario_federal@gmail.com':
                         location.href = '/modulo_integral';
                         break;
                     default :
@@ -63,6 +67,8 @@ $(document).ready(function(){
 
     /* Se esconden notificaciones */
     $('#SeccionRevisada').hide();
+    $('#Parte2').hide();
+    $('#Parte3').hide();
 
 
 
@@ -112,32 +118,44 @@ $(document).ready(function(){
 
 
     /* Cuestionario Institucional */
-    /* Se ocultan los divs de las preguntas que no se deben mostrar hasta responder la 1 */
+    /* Se ocultan los divs de las preguntas de la seccion 1 */
     for(var i = 2; i < 8; i++){
         $('#SeccionCap1Pre' + i).hide();
     }
+    /* Se ocultan los divs de las preguntas de la seccion 2 */
+    for(var i = 2; i < 5; i++){
+        $('#SeccionCap2Pre' + i).hide();
+    }
+    /* Se ocultan los divs de las preguntas de la seccion 3 */
+    for(var i = 2; i < 7; i++){
+        $('#SeccionCap3Pre' + i).hide();
+    }
 });
-
+/* Parte 1: Perfil Personal Operativo */
 /* Funcion que nos lleva a la siguiente pregunta */
 function EndPreguntaCapitulo1(siguienteSeccion, preguntaActual, tipoValidacion){
-
-    var puedeContinuar = validarRespuestas(preguntaActual, tipoValidacion);
-
+    var puedeContinuar = validarRespuestasCap1(preguntaActual, tipoValidacion);
     if(puedeContinuar){
-        for(var i = 0; i < 10; i++){
-            $('#SeccionCap1Pre' + (i + 1)).hide();
+        switch(siguienteSeccion){
+            case 8:
+                $('#Parte1').hide();
+                $('#Parte2').show();
+                break;
+            default:
+                for(var i = 1; i < 9; i++){
+                    $('#SeccionCap1Pre' + i).hide();
+                }
+                $('#SeccionCap1Pre' + siguienteSeccion).show();
+                break;
         }
-        $('#SeccionCap1Pre' + siguienteSeccion).show();
     }
     else{
         alert('Debes responder la pregunta antes de continuar');
     }
 }
 
-function validarRespuestas(preguntaActual, tipoValidacion){
-
+function validarRespuestasCap1(preguntaActual, tipoValidacion){
     var respuesta = false;
-
     switch (tipoValidacion){
         case 'radioButton':
             if($("input[name='Cap1Pre" + preguntaActual + "']:checked").val()){
@@ -150,6 +168,112 @@ function validarRespuestas(preguntaActual, tipoValidacion){
         default:
             console.log('Algo salio mal.');
     }
+    return respuesta;
+}
 
+
+/* Parte 2: Aspectos Socioeconómicos */
+function EndPreguntaCapitulo2(siguienteSeccion, preguntaActual, tipoValidacion){
+    var puedeContinuar = validarRespuestasCap2(preguntaActual, tipoValidacion);
+    if(puedeContinuar){
+
+        switch(siguienteSeccion){
+            case 4:
+                /* Si respondio que si tenia un ingreso extra se muestra esa pregunta
+                    si no, se termina esa seccion
+                 */
+                if($('#Cap2Pre3Opc1').is(':checked')){
+                    for(var i = 1; i < 5; i++){
+                        $('#SeccionCap2Pre' + i).hide();
+                    }
+                    $('#SeccionCap2Pre' + siguienteSeccion).show();
+                } else {
+                    $('#Parte2').hide();
+                    $('#Parte3').show();
+                }
+                break;
+            case 5:
+                /*
+                En caso de que si se mostro la 5ta pregunta, ya sería la ultima.
+                 */
+                $('#Parte2').hide();
+                $('#Parte3').show();
+                break;
+            default:
+                for(var i = 1; i < 5; i++){
+                    $('#SeccionCap2Pre' + i).hide();
+                }
+                $('#SeccionCap2Pre' + siguienteSeccion).show();
+                break;
+        }
+    }
+    else{
+        alert('Debes responder la pregunta antes de continuar');
+    }
+}
+
+function validarRespuestasCap2(preguntaActual, tipoValidacion){
+    var respuesta = false;
+    switch (tipoValidacion){
+        case 'radioButton':
+            if($("input[name='Cap2Pre" + preguntaActual + "']:checked").val()){
+                respuesta = true;
+            }
+            break;
+        case 'select':
+            respuesta = true;
+            break;
+        default:
+            console.log('Algo salio mal.');
+    }
+    return respuesta;
+}
+
+
+/* Parte 3: Profesionalización */
+function EndPreguntaCapitulo3(siguienteSeccion, preguntaActual, tipoValidacion){
+    var puedeContinuar = validarRespuestasCap3(preguntaActual, tipoValidacion);
+    if(puedeContinuar){
+        switch(siguienteSeccion) {
+            case 3:
+                if($('#Cap3Pre2Opc1').is(':checked')){
+                    for(var i = 1; i < 7; i++){
+                        $('#SeccionCap3Pre' + i).hide();
+                    }
+                    $('#SeccionCap3Pre' + siguienteSeccion).show();
+                } else {
+                    for(var i = 1; i < 7; i++){
+                        $('#SeccionCap3Pre' + i).hide();
+                    }
+                    $('#SeccionCap3Pre5').show();
+                }
+                break;
+            default:
+                for(var i = 1; i < 7; i++){
+                    $('#SeccionCap3Pre' + i).hide();
+                }
+                $('#SeccionCap3Pre' + siguienteSeccion).show();
+                break;
+        }
+    }
+    else{
+        alert('Debes responder la pregunta antes de continuar');
+    }
+}
+
+function validarRespuestasCap3(preguntaActual, tipoValidacion){
+    var respuesta = false;
+    switch (tipoValidacion){
+        case 'radioButton':
+            if($("input[name='Cap3Pre" + preguntaActual + "']:checked").val()){
+                respuesta = true;
+            }
+            break;
+        case 'select':
+            respuesta = true;
+            break;
+        default:
+            console.log('Algo salio mal.');
+    }
     return respuesta;
 }

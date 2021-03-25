@@ -2164,3 +2164,7 @@ input[type=radio][value="option5"]:checked+label:after {
   border-color: #d50000;
   background-color: #d50000;
 }
+
+.progreso {
+  background-color: #5AB652 !important;
+}

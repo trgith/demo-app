@@ -1,4 +1,4 @@
-<section class="about">
+<section class="about" id="Parte1">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -11,11 +11,14 @@
 
                                     <!-- Pregunta 1 -->
                                     <div id="SeccionCap1Pre1">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 14.28%" aria-valuenow="14.28" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
                                                 <td colspan="3">
-                                                    1. <strong>FUNCIÓN</strong>. ¿Cuál es la función que desempeña actualmente?
+                                                    1.1 <strong>FUNCIÓN</strong>. ¿Cuál es la función que desempeña actualmente?
                                                 </td>
                                             </tr>
                                             <tr>
@@ -63,11 +66,14 @@
 
                                     <!-- Pregunta 2 -->
                                     <div id="SeccionCap1Pre2">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 28.56%" aria-valuenow="28.56" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
                                                 <td colspan="3">
-                                                    2. <strong>SEXO</strong>
+                                                    1.2 <strong>SEXO</strong>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -105,11 +111,14 @@
 
                                     <!-- Pregunta 3 -->
                                     <div id="SeccionCap1Pre3">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 42.84%" aria-valuenow="42.84" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
                                                 <td colspan="3">
-                                                    3. <strong> EDAD ESPECIFIQUE</strong>
+                                                    1.3 <strong> EDAD ESPECIFIQUE</strong>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -141,11 +150,14 @@
 
                                     <!-- Pregunta 4 -->
                                     <div id="SeccionCap1Pre4">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 57.12%" aria-valuenow="57.12" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
                                                 <td colspan="3">
-                                                    4. <strong>SITUACIÓN PERSONAL</strong>
+                                                    1.4 <strong>SITUACIÓN PERSONAL</strong>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -203,11 +215,14 @@
 
                                     <!-- Pregunta 5 -->
                                     <div id="SeccionCap1Pre5">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 71.4%" aria-valuenow="71.4" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
                                                 <td colspan="3">
-                                                    5. <strong>ESCOLARIDAD </strong>(Último grado de estudios)
+                                                    1.5 <strong>ESCOLARIDAD </strong>(Último grado de estudios)
                                                 </td>
                                             </tr>
                                             <tr>
@@ -323,14 +338,194 @@
                                             </tbody>
                                         </table>
                                         <div class="row">
-                                            <div class="col-12 text-center"><!--onclick="EndPreguntaCapitulo1(6, 5, 'radioButton')"-->
-                                                <button class="btn btn-outline-dark" >
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-outline-dark" onclick="EndPreguntaCapitulo1(6, 5, 'radioButton')">
                                                     Continuar
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- Pregunta 5 -->
+
+
+                                    <!-- Pregunta 6 -->
+                                    <div id="SeccionCap1Pre6">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 85.68%" aria-valuenow="85.68" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <table class="table" rules="none">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="3">
+                                                    1.6 <strong>EN SU TRABAJO </strong> ¿Cuántas personas tiene bajo su mando o responsabilidad?
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre6Opc1" name="Cap1Pre6" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre6Opc1">
+                                                            De 1 a 5
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre6Opc2" name="Cap1Pre6" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre6Opc2">
+                                                            De 6 a 10
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre6Opc3" name="Cap1Pre6" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre6Opc3">
+                                                            De 11 a 30
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre6Opc4" name="Cap1Pre6" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre6Opc4">
+                                                            De 31 en adelante
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre6Opc5" name="Cap1Pre6" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre6Opc5">
+                                                            Ninguna
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-outline-dark" onclick="EndPreguntaCapitulo1(7, 6, 'radioButton')">
+                                                    Continuar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Pregunta 6 -->
+
+
+                                    <!-- Pregunta 7 -->
+                                    <div id="SeccionCap1Pre7">
+                                        <div class="progress">
+                                            <div class="progress-bar progreso" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <table class="table" rules="none">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="3">
+                                                    1.7 <strong>ANTIGÜEDAD</strong>  ¿Cuánto tiempo tiene trabajando en su actual institución?
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc1" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc1">
+                                                            Menos de 2 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc2" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc2">
+                                                            De 2 a 5 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc3" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc3">
+                                                            De 6 a 10 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc4" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc4">
+                                                            De 11 a 15 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc5" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc5">
+                                                            De 16 a 20 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc6" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc6">
+                                                            De 21 a 25 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc7" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc7">
+                                                            De 26 a 30 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="Cap1Pre7Opc8" name="Cap1Pre7" class="custom-control-input">
+                                                        <label class="custom-control-label" for="Cap1Pre7Opc8">
+                                                            Más de 30 años
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-outline-dark" onclick="EndPreguntaCapitulo1(8, 7, 'radioButton')">
+                                                    Continuar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Pregunta 7 -->
 
                                 </div>
                             </div>
