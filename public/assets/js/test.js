@@ -1,4 +1,17 @@
 $(document).ready(function(){
+
+    //$('#1-1-1').hide();
+    $('.botonCambiandoSeccion').hide();
+    $('#1-2').hide();
+    $('#2-1').hide();
+    $('#2-2').hide();
+    $('#1-1-2').hide();
+    $('#1-2-1').hide();
+    $('#2-1-1').hide();
+    $('#2-1-2').hide();
+    $('#2-2-1').hide();
+    $('#2-2-2').hide();
+
     $('#EnviarTest').click(function(){
         $.ajax({
             headers: {
@@ -9,7 +22,6 @@ $(document).ready(function(){
             data: $('#FormTest').serialize(),
             dataType: 'json',
             success: function(data){
-                console.log(data);
                 var response = data.response;
                 console.log(response);
                 $('#Table').append("<tr>" +
@@ -135,6 +147,30 @@ $(document).ready(function(){
         $('#SeccionCap3Pre' + i).hide();
     }
 });
+
+function CambiarSeccion(capituloActual, capituloSiguiente, seccionActual, seccionSiguiente){
+    $('.botonCambiarSeccion').hide();
+    $('.botonCambiandoSeccion').show();
+
+    setTimeout(() => {
+
+        //Se cambia de Capitulo
+        $('#' + capituloActual).hide();
+        $('#' + capituloSiguiente).show();
+
+        //Se cambia de Seccion
+        $('#' + seccionActual).hide();
+        $('#' + seccionSiguiente).show();
+
+        //Botones
+        $('.botonCambiarSeccion').show();
+        $('.botonCambiandoSeccion').hide();
+
+        window.scrollTo(0,0);
+    }, 3000);
+}
+
+
 /* Parte 1: Perfil Personal Operativo */
 /* Funcion que nos lleva a la siguiente pregunta */
 function EndPreguntaCapitulo1(siguienteSeccion, preguntaActual, tipoValidacion){
