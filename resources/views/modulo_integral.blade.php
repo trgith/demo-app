@@ -213,7 +213,7 @@
 
                                     <!-- Abre 1. Avance general del Subprograma -->
                                     <div id="3-1-2">
-                                        @include('modulo_integraL.3-1-2-avance-general-del-subprograma')
+                                        @include('modulo_integral.3-1-2-avance-general-del-subprograma')
                                     </div>
                                     <!-- Cierra 1. Avance general del Subprograma -->
 

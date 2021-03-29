@@ -34,7 +34,7 @@ $(document).ready(function(){
     $('#2-1').hide();
     $('#2-2').hide();
     $('#3-1').hide();
-    //$('#3-2').hide();
+    $('#3-2').hide();
     $('#1-1-2').hide();
     $('#1-2-1').hide();
     $('#2-1-1').hide();
@@ -42,7 +42,7 @@ $(document).ready(function(){
     $('#2-2-1').hide();
     $('#2-2-2').hide();
     $('#3-1-1').hide();
-    //$('#3-1-2').hide();
+    $('#3-1-2').hide();
 
     $('#EnviarTest').click(function(){
         $.ajax({
