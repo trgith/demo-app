@@ -34,9 +34,10 @@
             </div>
             <!-- Siguiente inciso -->
             <div class="form-row" id="Cap111IncisoAPositiva" data-aos="fade-up">
-                <div class="form-group col-md-12">
+
                     <label>b) ¿Cuáles fueron los principales bienes adquiridos para el fortalecimiento de la Unidad de Investigación? </label>
                     <br>
+                <div class="table-responsive">
                     <table class="table">
                         <thead>
                         <tr>

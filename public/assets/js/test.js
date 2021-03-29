@@ -1,16 +1,48 @@
 $(document).ready(function(){
 
+    /* Wizard */
+    //Initialize tooltips
+    $('.nav-tabs > li a[title]').tooltip();
+
+    //Wizard
+    $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+
+        var $target = $(e.target);
+
+        if ($target.parent().hasClass('disabled')) {
+            return false;
+        }
+    });
+
+    $(".next-step").click(function (e) {
+
+        var $active = $('.wizard .nav-tabs li.active');
+        $active.next().removeClass('disabled');
+        nextTab($active);
+
+    });
+    $(".prev-step").click(function (e) {
+
+        var $active = $('.wizard .nav-tabs li.active');
+        prevTab($active);
+
+    });
+
     //$('#1-1-1').hide();
     $('.botonCambiandoSeccion').hide();
     $('#1-2').hide();
     $('#2-1').hide();
     $('#2-2').hide();
+    $('#3-1').hide();
+    //$('#3-2').hide();
     $('#1-1-2').hide();
     $('#1-2-1').hide();
     $('#2-1-1').hide();
     $('#2-1-2').hide();
     $('#2-2-1').hide();
     $('#2-2-2').hide();
+    $('#3-1-1').hide();
+    //$('#3-1-2').hide();
 
     $('#EnviarTest').click(function(){
         $.ajax({
@@ -129,7 +161,7 @@ $(document).ready(function(){
     });
 
     $( "#EnviarARevision" ).click(function() {
-        setTimeout(() => {  $('#SeccionRevisada').show();$("#SeccionRevisada").toast('show'); }, 2000);
+        setTimeout(() => {  $('#SeccionRevisada').show();$("#SeccionRevisada").toast('show'); }, 0);
     });
 
 
@@ -147,6 +179,15 @@ $(document).ready(function(){
         $('#SeccionCap3Pre' + i).hide();
     }
 });
+
+/* Wizard */
+function nextTab(elem) {
+    $(elem).next().find('a[data-toggle="tab"]').click();
+}
+function prevTab(elem) {
+    $(elem).prev().find('a[data-toggle="tab"]').click();
+}
+/* Wizard */
 
 function CambiarSeccion(capituloActual, capituloSiguiente, seccionActual, seccionSiguiente){
     $('.botonCambiarSeccion').hide();
@@ -167,7 +208,7 @@ function CambiarSeccion(capituloActual, capituloSiguiente, seccionActual, seccio
         $('.botonCambiandoSeccion').hide();
 
         window.scrollTo(0,0);
-    }, 3000);
+    }, 500);
 }
 
 
