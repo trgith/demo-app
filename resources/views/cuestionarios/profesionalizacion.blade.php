@@ -262,7 +262,8 @@
                                                     <tr>
                                                         <td>Aguinaldo</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-1" id="Cap3Pre5-1" class="form-control">
+                                                            <select name="Cap3Pre5-1" id="Cap3Pre5-1" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -272,7 +273,8 @@
                                                     <tr>
                                                         <td>Vacaciones</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-2" id="Cap3Pre5-2" class="form-control">
+                                                            <select name="Cap3Pre5-2" id="Cap3Pre5-2" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -282,7 +284,8 @@
                                                     <tr>
                                                         <td>Seguro de Vida</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-3" id="Cap3Pre5-3" class="form-control">
+                                                            <select name="Cap3Pre5-3" id="Cap3Pre5-3" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -292,7 +295,8 @@
                                                     <tr>
                                                         <td>ISSTE, IMSS</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-4" id="Cap3Pre5-4" class="form-control">
+                                                            <select name="Cap3Pre5-4" id="Cap3Pre5-4" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -302,7 +306,8 @@
                                                     <tr>
                                                         <td>Días de permiso</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-5" id="Cap3Pre5-5" class="form-control">
+                                                            <select name="Cap3Pre5-5" id="Cap3Pre5-5" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -312,7 +317,8 @@
                                                     <tr>
                                                         <td>Fondo para el retiro</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-6" id="Cap3Pre5-6" class="form-control">
+                                                            <select name="Cap3Pre5-6" id="Cap3Pre5-6" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -322,7 +328,8 @@
                                                     <tr>
                                                         <td>Licencia de maternidad/paternidad</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-7" id="Cap3Pre5-7" class="form-control">
+                                                            <select name="Cap3Pre5-7" id="Cap3Pre5-7" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -332,7 +339,8 @@
                                                     <tr>
                                                         <td>Servicios médicos dentro de las instalaciones</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-8" id="Cap3Pre5-8" class="form-control">
+                                                            <select name="Cap3Pre5-8" id="Cap3Pre5-8" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -342,7 +350,8 @@
                                                     <tr>
                                                         <td>Créditos para la vivienda</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-9" id="Cap3Pre5-9" class="form-control">
+                                                            <select name="Cap3Pre5-9" id="Cap3Pre5-9" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -352,7 +361,8 @@
                                                     <tr>
                                                         <td>Apoyo para gastos funerarios</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-10" id="Cap3Pre5-10" class="form-control">
+                                                            <select name="Cap3Pre5-10" id="Cap3Pre5-10" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -362,7 +372,8 @@
                                                     <tr>
                                                         <td>Comedor dentro de las instalaciones</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-11" id="Cap3Pre5-11" class="form-control">
+                                                            <select name="Cap3Pre5-11" id="Cap3Pre5-11" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -372,7 +383,8 @@
                                                     <tr>
                                                         <td>Áreas deportivas</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-12" id="Cap3Pre5-12" class="form-control">
+                                                            <select name="Cap3Pre5-12" id="Cap3Pre5-12" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -382,7 +394,8 @@
                                                     <tr>
                                                         <td>Vales de despensa</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-13" id="Cap3Pre5-13" class="form-control">
+                                                            <select name="Cap3Pre5-13" id="Cap3Pre5-13" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -392,7 +405,8 @@
                                                     <tr>
                                                         <td>Becas para sus hijos</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-14" id="Cap3Pre5-14" class="form-control">
+                                                            <select name="Cap3Pre5-14" id="Cap3Pre5-14" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -402,7 +416,8 @@
                                                     <tr>
                                                         <td>Servicios psicológicos</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-15" id="Cap3Pre5-15" class="form-control">
+                                                            <select name="Cap3Pre5-15" id="Cap3Pre5-15" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -412,7 +427,8 @@
                                                     <tr>
                                                         <td>Apoyo educativo</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-16" id="Cap3Pre5-16" class="form-control">
+                                                            <select name="Cap3Pre5-16" id="Cap3Pre5-16" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -422,7 +438,8 @@
                                                     <tr>
                                                         <td>Apoyo para la vivienda</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-17" id="Cap3Pre5-17" class="form-control">
+                                                            <select name="Cap3Pre5-17" id="Cap3Pre5-17" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -432,7 +449,8 @@
                                                     <tr>
                                                         <td>Apoyo económico para viudas</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-18" id="Cap3Pre5-18" class="form-control">
+                                                            <select name="Cap3Pre5-18" id="Cap3Pre5-18" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -442,7 +460,8 @@
                                                     <tr>
                                                         <td>Seguroh gastos médicos mayores</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-19" id="Cap3Pre5-19" class="form-control">
+                                                            <select name="Cap3Pre5-19" id="Cap3Pre5-19" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -452,7 +471,8 @@
                                                     <tr>
                                                         <td>Ahorro solidario</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-20" id="Cap3Pre5-20" class="form-control">
+                                                            <select name="Cap3Pre5-20" id="Cap3Pre5-20" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -462,7 +482,8 @@
                                                     <tr>
                                                         <td>Guardería</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-21" id="Cap3Pre5-21" class="form-control">
+                                                            <select name="Cap3Pre5-21" id="Cap3Pre5-21" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -472,7 +493,8 @@
                                                     <tr>
                                                         <td>Créditos automotrices</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-22" id="Cap3Pre5-22" class="form-control">
+                                                            <select name="Cap3Pre5-22" id="Cap3Pre5-22" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -482,7 +504,8 @@
                                                     <tr>
                                                         <td>Ayuda para transporte</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-23" id="Cap3Pre5-23" class="form-control">
+                                                            <select name="Cap3Pre5-23" id="Cap3Pre5-23" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -492,7 +515,8 @@
                                                     <tr>
                                                         <td>Seguridad social estatal</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-24" id="Cap3Pre5-24" class="form-control">
+                                                            <select name="Cap3Pre5-24" id="Cap3Pre5-24" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -502,7 +526,8 @@
                                                     <tr>
                                                         <td>Otras prestaciones</td>
                                                         <td>
-                                                            <select name="Cap3Pre5-25" id="Cap3Pre5-25" class="form-control">
+                                                            <select name="Cap3Pre5-25" id="Cap3Pre5-25" class="form-control" required>
+                                                                <option>Elegir...</option>
                                                                 <option value="1">Sí</option>
                                                                 <option value="2">No</option>
                                                                 <option value="3">No sabe</option>
@@ -518,7 +543,7 @@
                                         </table>
                                         <div class="row">
                                             <div class="col-12 text-center">
-                                                <button class="btn btn-outline-dark" onclick="EndPreguntaCapitulo3(7, 6, 'radioButton')">
+                                                <button type="button" class="btn btn-outline-dark" onclick="EndPreguntaCapitulo3(7, 6, 'select')">
                                                     Continuar
                                                 </button>
                                             </div>

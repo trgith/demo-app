@@ -229,6 +229,40 @@
     </div>
 
 
+    <div class="container" id="3-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="card text-white">
+                    <div class="card-header bg-dark">
+                        3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                    </div>
+                    <div class="card-header text-dark">
+                        3.2. Subprograma de Infraestructura de las Instituciones de Seguridad Pública.
+                    </div>
+                    <div class="card-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-12 text-dark">
+                                <div class="container">
+
+
+                                    <!-- Abre 1. Cumplimiento Metas Convenidas -->
+                                    <div id="3-2-1">
+                                        @include('modulo_integral.3-2-1-cumplimiento-de-metas-convenidas')
+                                    </div>
+                                    <!-- Cierra 1. Cumplimiento Metas Convenidas -->
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </main>
 <!-- Cierra Contenido Principal -->

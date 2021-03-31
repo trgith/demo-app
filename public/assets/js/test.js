@@ -141,7 +141,7 @@ $(document).ready(function(){
         $('#Cap111IncisoANegativa').slideToggle( "slow" );
     });
 
-    /* Tabla de inciso B */
+    /* Tabla de inciso B Capitulo 1*/
     $( "#AgregarBienCap111" ).click(function() {
         $( "#Cap111TablaBienes" ).append( "<tr>" +
                                             "<td>" + $( "#Cap1NombreBien" ).val() + "</td>" +
@@ -156,7 +156,39 @@ $(document).ready(function(){
         $( "#Cap1Alcanzado2020" ).val(' ');
     });
 
+    /* Tabla de inciso A Capitulo 3 */
+    $( "#AgregarObraCap321" ).click(function() {
+        var obra = " ";
+        var mantenimiento = " ";
+        if($("#ObraCheck").prop( "checked" )){
+            obra = "<span><i class='fas fa-check'></i></span>";
+        }
+        if($("#MantenimientoCheck").prop( "checked" )){
+            mantenimiento = "<span><i class='fas fa-check'></i></span>";
+        }
+
+        $( "#Cap321TablaObras" ).append( "<tr>" +
+            "<td><span style='color: white;'><i class='fab fa-accusoft'></i></span></td>" +
+            "<td>" + mantenimiento + "</td>" +
+            "<td>" + $( "#Cap3NombreLugar" ).val() + "</td>" +
+            "<td>" + $( "#Cap3Concertada2020" ).val() + "</td>" +
+            "<td>" + $( "#Cap3Modificada2020" ).val() + "</td>" +
+            "<td>" + $( "#Cap3Alcanzado2020" ).val() + "</td>" +
+            "<td><button type='button' class='btn btn-danger RemoverFilaCap3Tabla'><i class='bx bx-x-circle' ></i></button></td>" +
+            "</tr>" );
+        $( "#Cap3NombreLugar" ).val(' ');
+        $( "#Cap3Concertada2020" ).val(' ');
+        $( "#Cap3Modificada2020" ).val(' ');
+        $( "#Cap3Alcanzado2020" ).val(' ');
+        $("#ObraCheck").prop('checked', false);
+        $("#MantenimientoCheck").prop('checked', false);
+    });
+
     $(document).on("click",".RemoverFilaCap1Tabla",function(){
+        $(this).parent().parent().remove();
+    });
+
+    $(document).on("click",".RemoverFilaCap3Tabla",function(){
         $(this).parent().parent().remove();
     });
 
@@ -318,7 +350,7 @@ function EndPreguntaCapitulo3(siguienteSeccion, preguntaActual, tipoValidacion){
         switch(siguienteSeccion) {
             case 3:
                 if($('#Cap3Pre2Opc1').is(':checked')){
-                    for(var i = 1; i < 7; i++){
+                     for(var i = 1; i < 7; i++){
                         $('#SeccionCap3Pre' + i).hide();
                     }
                     $('#SeccionCap3Pre' + siguienteSeccion).show();
@@ -351,7 +383,15 @@ function validarRespuestasCap3(preguntaActual, tipoValidacion){
             }
             break;
         case 'select':
-            respuesta = true;
+            for(var i = 1; i < 26; i++) {
+                console.log($('#Cap3Pre5-' + i).val());
+                if($('#Cap3Pre5-' + i).val() == 'Elegir...'){
+                    respuesta = false;
+                    break;
+                } else {
+                    respuesta = true;
+                }
+            }
             break;
         default:
             console.log('Algo salio mal.');

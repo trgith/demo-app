@@ -284,7 +284,7 @@
 
 <!-- Botones para enviar -->
 <div class="d-flex justify-content-around" id="contenedorCambiarSeccion">
-    <button type="button" class="btn btn-primary botonCambiarSeccion">
+    <button type="button" class="btn btn-primary botonCambiarSeccion" onclick="CambiarSeccion('3-2','3-3','3-1-2','3-2-1')">
         Siguiente Sección <i class='bx bx-skip-next'></i>
     </button>
     <button class="btn btn-warning botonCambiandoSeccion" type="button" disabled>
