@@ -39,6 +39,11 @@ Route::get('/modulo_integral', function () {
     return view('modulo_integral');
 });
 
+//Evaluador Externo
+Route::get('/monitoreo_validacion_institucional', function () {
+    return view('monitoreo_seguimiento.monitoreo_validacion_institucional');
+});
+
 
 Route::get('/test', [TestController::class, 'show']);
 Route::post('/saveTest', [TestController::class, 'save']);

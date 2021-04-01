@@ -25,6 +25,19 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
+/*--------------------------------------------------------------
+# Estilos de cards de Grupos
+--------------------------------------------------------------*/
+.grupos {
+  display: inline-block;
+  padding: 14px;
+}
+
+.grupos-scroll {
+  overflow: auto;
+  white-space: nowrap;
+  margin: 5%;
+}
 
 /*--------------------------------------------------------------
 # Back to top button

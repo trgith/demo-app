@@ -41,157 +41,61 @@
                 </form>
             </div>
         </div>
+    </section>
 
-        <div class="container">
-            <br><br><br><br><br><br>
-            <div class="section-title" data-aos="fade-up">
-                <h3>Usuarios Activos</h3>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    Usuario #1234 : Ejemplo Nombre Usuario
-                </div>
-                <div class="card-body">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <!-- Contenedores Principales -->
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitoreo y Validación de Aplicación Institucional</h5>
+                        <p class="card-text">Monitoreo y validación de aplicación por grupos e individual.</p>
+                        <a href="/monitoreo_validacion_institucional" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
-                    <p class="card-text">Actualmente respondiendo la Seccion 1.1.2</p>
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Sección</th>
-                            <th scope="col">Inciso</th>
-                            <th scope="col" style="width: 60%">Pregunta</th>
-                            <th scope="col">Respuesta</th>
-                            <th scope="col">Hora</th>
-                            <th scope="col">Comentario</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">1.1.2</th>
-                            <td>A)</td>
-                            <td>¿A partir de qué año la entidad federativa cuenta con Unidad de Investigación dentro de su Secretaría de Seguridad Estatal o equivalente?</td>
-                            <td>2019</td>
-                            <td>15:16 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1.1.2</th>
-                            <td>B)</td>
-                            <td>¿Cuántos elementos conforman esta Unidad de Investigación?</td>
-                            <td>40</td>
-                            <td>15:20 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1.1.2</th>
-                            <td>C)</td>
-                            <td>Señale si se ha brindado capacitación especializada a los integrantes de la Unidad de Investigación en alguno de los siguientes cursos: <strong>Criminalística</strong></td>
-                            <td>Si</td>
-                            <td>15:25 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <a href="#" class="btn btn-primary">Ver más detalles</a>
                 </div>
             </div>
             <br>
-
-
-            <div class="card">
-                <div class="card-header">
-                    Usuario #1234 : Ejemplo Nombre Usuario 2
-                </div>
-                <div class="card-body">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitoreo y Validación de Aplicación Integral</h5>
+                        <p class="card-text">Monitoreo y validación de aplicación por grupos e individual, además de observaciones a funcionarios públicos.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
-                    <p class="card-text">Actualmente respondiendo la Seccion 1.2.1</p>
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Sección</th>
-                            <th scope="col">Inciso</th>
-                            <th scope="col" style="width: 60%">Pregunta</th>
-                            <th scope="col">Respuesta</th>
-                            <th scope="col">Hora</th>
-                            <th scope="col">Comentario</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">1.2.1</th>
-                            <td>A)</td>
-                            <td>Señale el salario mensual bruto (antes de impuestos) de los policías según su grado (o grado equivalente), en pesos mexicanos: <strong>Suboficial</strong></td>
-                            <td>$13,471.00</td>
-                            <td>15:17 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1.2.1</th>
-                            <td>B)</td>
-                            <td>Señale las prestaciones sociales que se proporcionan a los integrantes de la corporación o no: <strong>Seguro de vida</strong></td>
-                            <td>Si</td>
-                            <td>15:19 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1.2.1</th>
-                            <td>C)</td>
-                            <td>Indique el número total de policías de la corporación que se encuentran dentro de un esquema de jornada laboral como los siguientes: <strong>12 x 12</strong></td>
-                            <td>45</td>
-                            <td>15:21 <strong>Vie 05</strong> Marzo 2021</td>
-                            <td>
-                                <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-comment-error'></i></a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <a href="#" class="btn btn-primary">Ver más detalles</a>
                 </div>
             </div>
         </div>
-    </section>
-</main>
-<!-- Cierra Contenido Principal -->
-
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Enviar Comentario</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Comentario:</label>
-                        <textarea class="form-control" id="message-text">Porfavor, valida la información que acabas de ingresar.</textarea>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Informe Institucional</h5>
+                        <p class="card-text">Visualización e integración de resultados de cuestionarios. Construcción de informe final por estado.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
-                </form>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary">Enviar</button>
+            <br>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Informe Integral</h5>
+                        <p class="card-text">Visualización e integración de resultados de cuestionarios. Construcción de informe final por estado.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- Contenedores Principales -->
+
+
+
+</main>
+<!-- Cierra Contenido Principal -->
 
 <!-- Footer -->
 @include('includes.footer')

@@ -28,6 +28,8 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1090cb46d6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
