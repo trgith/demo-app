@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="section-title" data-aos="fade-up">
+                        <div class="col-12 section-title" data-aos="fade-up">
                             <h3>Monitoreo</h3>
                         </div>
                         <div class="col">
@@ -32,8 +32,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <p style="text-align: justify; text-justify: inter-word;">
+                        <div class="col-12">
+                            <p style="text-align: justify; text-justify: inter-word; margin: 5%;">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nisl mi. Etiam mollis vehicula efficitur. Nulla vehicula dolor elit, vitae ultricies dui mattis id. Suspendisse lacinia dignissim ex, vitae varius diam cursus nec. Praesent scelerisque nibh tortor, eu ultrices velit cursus eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque consequat tortor ut gravida pulvinar. Nulla volutpat dapibus justo, sed varius diam molestie sed. Sed nec magna eros. Suspendisse ultrices blandit quam vitae tempor. Vivamus volutpat magna dui, in ultrices orci porttitor ut.
                             </p>
                         </div>

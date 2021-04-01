@@ -9,7 +9,21 @@
                 <div class="row">
                     <div class="col-12">
                         <div data-aos="fade-up">
-                            <h3>Monitoreo y Validación de la Aplicación</h3>
+                            <h3>Monitoreo y Validación de la Aplicación Institucional</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item" style="border: 0px !important;">
+                                    <i class="far fa-eye"></i>&nbsp; Visualizar participantes dentro del cuestionario
+                                </li>
+                                <li class="list-group-item" style="border: 0px !important;">
+                                    <i class="fas fa-database"></i>&nbsp; Descargar los datos generados de este cuestionario *
+                                </li>
+                                <li class="list-group-item" style="border: 0px !important;">
+                                    <i class="fas fa-check"></i>&nbsp; Validar el proceso *
+                                </li>
+                                <li class="list-group-item" style="border: 0px !important;">
+                                    * &nbsp; Debe estar terminado el proceso para efectuar
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
