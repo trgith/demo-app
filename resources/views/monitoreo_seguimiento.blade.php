@@ -55,8 +55,8 @@
                         <a href="/monitoreo_validacion_institucional" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
+                <br>
             </div>
-            <br>
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -65,9 +65,9 @@
                         <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
+                <br>
             </div>
         </div>
-        <br>
         <div class="row">
             <div class="col-sm-6">
                 <div class="card">
@@ -77,8 +77,8 @@
                         <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
+                <br>
             </div>
-            <br>
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -87,6 +87,7 @@
                         <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
+                <br>
             </div>
         </div>
     </div>

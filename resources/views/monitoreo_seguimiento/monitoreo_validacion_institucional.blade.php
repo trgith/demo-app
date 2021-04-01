@@ -110,7 +110,9 @@
                                         </div>
                                         <div class="col-4">
                                             <button class="btn btn-outline-success" title="Descargar Datos de encuestas">
-                                                <i class="fas fa-database" style="color: white"></i>
+                                                <a href="/assets/descarga.pdf" download>
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
                                             </button>
                                         </div>
                                         <div class="col-4">
