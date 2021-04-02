@@ -48,3 +48,6 @@ Route::get('/monitoreo_validacion_institucional', function () {
 Route::get('/test', [TestController::class, 'show']);
 Route::post('/saveTest', [TestController::class, 'save']);
 Route::get('/validateUser', [TestController::class, 'validateUser']);
+
+/* Generar PDF */
+Route::get('generate-pdf','GenerarPdfController@generatePDF');

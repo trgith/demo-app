@@ -10,7 +10,11 @@
                     <div class="col-12">
                         <div data-aos="fade-up">
                             <h3>Monitoreo y Validación de la Aplicación Institucional</h3>
+
                             <ul class="list-group">
+                                <li class="list-group-item" style="border: 0px !important;">
+                                    <strong>Simbología</strong>
+                                </li>
                                 <li class="list-group-item" style="border: 0px !important;">
                                     <i class="far fa-eye"></i>&nbsp; Visualizar participantes dentro del cuestionario
                                 </li>
@@ -21,7 +25,7 @@
                                     <i class="fas fa-check"></i>&nbsp; Validar el proceso *
                                 </li>
                                 <li class="list-group-item" style="border: 0px !important;">
-                                    * &nbsp; Debe estar terminado el proceso para efectuar
+                                    * &nbsp; El proceso debe estar terminado para efectuar
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +54,9 @@
                                         </div>
                                         <div class="col-4">
                                             <button class="btn btn-outline-success" title="Descargar Datos de encuestas" disabled="disabled">
-                                                <i class="fas fa-database" style="color: white"></i>
+                                                <a href="#">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
                                             </button>
                                         </div>
                                         <div class="col-4">
@@ -110,13 +116,13 @@
                                         </div>
                                         <div class="col-4">
                                             <button class="btn btn-outline-success" title="Descargar Datos de encuestas">
-                                                <a href="/assets/descarga.pdf" download>
+                                                <a href="/generate-pdf">
                                                     <i class="fas fa-database" style="color: white"></i>
                                                 </a>
                                             </button>
                                         </div>
                                         <div class="col-4">
-                                            <button class="btn btn-outline-success" title="Aprobar este grupo">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" onclick="AprobarGrupo(9829)">
                                                 <i class="fas fa-check" style="color: white"></i>
                                             </button>
                                         </div>
@@ -172,11 +178,13 @@
                                         </div>
                                         <div class="col-4">
                                             <button class="btn btn-outline-success" title="Descargar Datos de encuestas">
-                                                <i class="fas fa-database" style="color: white"></i>
+                                                <a href="/generate-pdf">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
                                             </button>
                                         </div>
                                         <div class="col-4">
-                                            <button class="btn btn-outline-success" title="Aprobar este grupo">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" onclick="AprobarGrupo(9831)">
                                                 <i class="fas fa-check" style="color: white"></i>
                                             </button>
                                         </div>
@@ -272,6 +280,11 @@
 
 
                             </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" onclick="CerrarVerParticipantes(9827)">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -341,6 +354,11 @@
                                 </div>
                                 </div>
                                 <!--Tabla de participantes -->
+                            </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" onclick="CerrarVerParticipantes(9828)">Cerrar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -435,6 +453,11 @@
                                 <!--Tabla de participantes -->
 
                             </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" onclick="CerrarVerParticipantes(9829)">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -518,6 +541,11 @@
                                 </div>
                                 <!--Tabla de participantes -->
                             </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" onclick="CerrarVerParticipantes(9830)">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -600,10 +628,16 @@
                                 </div>
                                 <!--Tabla de participantes -->
                             </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" onclick="CerrarVerParticipantes(9831)">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!--Modal 5 Grupo-->
+
 
 
                 <!--Modal para detalles-->
@@ -616,19 +650,72 @@
                                     <div class="col-sm">
                                         <p id="CabezeroCardDetalles"></p>
                                     </div>
-                                    <div class="col-sm text-right">
-                                        <button class="btn btn-outline-success" id="CerrarDetalles">Regresar</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Progreso</h5>
-
+                            </div>
+                            <div class="card-footer">
+                                <div class="col-sm text-right">
+                                    <button class="btn btn-outline-success" id="CerrarDetalles">Regresar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Modal para detalles-->
+
+                <!--Modal para Aprobar-->
+                <div class="row" id="CardAprobar">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <p id="CabezeroCardAprobar"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Proceso de Aprobación</h5>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Apellido Paterno" aria-label="Apellido Paterno">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Apellido Materno" aria-label="Apellido Materno">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Token" aria-label="Nombre">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-outline-success">Aprobar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col-sm text-right">
+                                        <button class="btn btn-outline-success" onclick="CerrarAprobar()">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal para Aprobar-->
 
 
                 <br>

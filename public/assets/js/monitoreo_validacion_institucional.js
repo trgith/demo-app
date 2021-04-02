@@ -7,6 +7,7 @@ $(document).ready(function(){
     $('#CardGrupo-9831').hide();
 
     $('#CardDetalles').hide();
+    $('#CardAprobar').hide();
 
 });
 
@@ -24,6 +25,16 @@ function VerParticipantes(numGrupo, porcentajeCompletado) {
     $('#CerrarDetalles').attr('onclick', "CerrarDetalles(" + numGrupo + ")");
 
     $('#CardGrupo-' + numGrupo).fadeIn('slow');
+}
+
+function CerrarVerParticipantes(numGrupo){
+
+    $('#CardGrupo-9827').hide();
+    $('#CardGrupo-9828').hide();
+    $('#CardGrupo-9829').hide();
+    $('#CardGrupo-9830').hide();
+    $('#CardGrupo-9831').hide();
+
 }
 
 function VerDetallesParticipante(reactivo, seccion, nombreUsuario){
@@ -48,4 +59,13 @@ function CerrarDetalles(numGrupo) {
     $('#CardGrupo-' + numGrupo).show();
 
     $('#CardDetalles').hide();
+}
+
+function AprobarGrupo(numGrupo){
+    $('#CabezeroCardAprobar').text("Aprobación de Grupo: " + numGrupo);
+    $('#CardAprobar').show();
+}
+
+function CerrarAprobar() {
+    $('#CardAprobar').hide();
 }
