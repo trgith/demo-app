@@ -62,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Monitoreo y Validación de Aplicación Integral</h5>
                         <p class="card-text">Monitoreo y validación de aplicación por grupos e individual, además de observaciones a funcionarios públicos.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
+                        <a href="/monitoreo_validacion_integral" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
                 <br>

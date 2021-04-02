@@ -43,6 +43,9 @@ Route::get('/modulo_integral', function () {
 Route::get('/monitoreo_validacion_institucional', function () {
     return view('monitoreo_seguimiento.monitoreo_validacion_institucional');
 });
+Route::get('/monitoreo_validacion_integral', function () {
+    return view('monitoreo_seguimiento.monitoreo_validacion_integral');
+});
 
 
 Route::get('/test', [TestController::class, 'show']);

@@ -34,5 +34,6 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/test.js"></script>
 <script src="assets/js/monitoreo_validacion_institucional.js"></script>
+<script src="assets/js/monitoreo_validacion_integral.js"></script>
 </body>
 </html>
