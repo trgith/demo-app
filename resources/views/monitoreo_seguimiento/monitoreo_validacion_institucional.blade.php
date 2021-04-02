@@ -654,6 +654,87 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Progreso</h5>
+                                <!-- Porcentaje de Completado Individual-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        Progreso Total Individual: (50%)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Porcentaje de Completado Individual-->
+
+                                <!-- Tabla de reactivos recientes-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        Reactivos Recientes
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Fecha y Hora</th>
+                                                <th scope="col">Capitulo</th>
+                                                <th scope="col">Inciso</th>
+                                                <th scope="col">Sección</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">02/04/2021 15:35 PM</th>
+                                                <td>1</td>
+                                                <td>E)</td>
+                                                <td>1.1.2</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">02/04/2021 15:40 PM</th>
+                                                <td>1</td>
+                                                <td>F)</td>
+                                                <td>1.1.2</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">02/04/2021 15:41 PM</th>
+                                                <td>1</td>
+                                                <td>G)</td>
+                                                <td>1.1.2</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Tabla de Reactivos Recientes-->
+
+                                <!-- Datos Generales-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        Datos Generales de Participante
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <input type="text" class="form-control" value="Nombre" readonly>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" value="Apellido Paterno" readonly>
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" value="Apellido Materno" readonly>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Datos Generales-->
                             </div>
                             <div class="card-footer">
                                 <div class="col-sm text-right">
