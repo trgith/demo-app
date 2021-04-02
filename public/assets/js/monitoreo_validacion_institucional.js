@@ -62,6 +62,12 @@ function CerrarDetalles(numGrupo) {
 }
 
 function AprobarGrupo(numGrupo){
+    $('#CardGrupo-9827').hide();
+    $('#CardGrupo-9828').hide();
+    $('#CardGrupo-9829').hide();
+    $('#CardGrupo-9830').hide();
+    $('#CardGrupo-9831').hide();
+
     $('#CabezeroCardAprobar').text("Aprobación de Grupo: " + numGrupo);
     $('#CardAprobar').show();
 }

@@ -25,6 +25,7 @@ function VerParticipantes(numGrupo, porcentajeCompletado) {
     $('#CerrarDetalles').attr('onclick', "CerrarDetalles(" + numGrupo + ")");
 
     $('#CardGrupo-' + numGrupo).fadeIn('slow');
+    $('#CardAprobar').hide();
 }
 
 function CerrarVerParticipantes(numGrupo){
@@ -34,6 +35,7 @@ function CerrarVerParticipantes(numGrupo){
     $('#CardGrupo-9829').hide();
     $('#CardGrupo-9830').hide();
     $('#CardGrupo-9831').hide();
+    $('#CardAprobar').hide();
 
 }
 
@@ -45,7 +47,7 @@ function VerDetallesParticipante(reactivo, seccion, nombreUsuario){
     $('#CardGrupo-9831').hide();
 
     $('#CabezeroCardDetalles').text("Participante: " + nombreUsuario);
-
+    $('#CardAprobar').hide();
     $('#CardDetalles').show();
 }
 
@@ -59,9 +61,16 @@ function CerrarDetalles(numGrupo) {
     $('#CardGrupo-' + numGrupo).show();
 
     $('#CardDetalles').hide();
+    $('#CardAprobar').hide();
 }
 
 function AprobarGrupo(numGrupo){
+    $('#CardGrupo-9827').hide();
+    $('#CardGrupo-9828').hide();
+    $('#CardGrupo-9829').hide();
+    $('#CardGrupo-9830').hide();
+    $('#CardGrupo-9831').hide();
+
     $('#CabezeroCardAprobar').text("Aprobación de Grupo: " + numGrupo);
     $('#CardAprobar').show();
 }
