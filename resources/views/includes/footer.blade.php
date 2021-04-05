@@ -30,10 +30,12 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous"></script>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/test.js"></script>
 <script src="assets/js/monitoreo_validacion_institucional.js"></script>
 <script src="assets/js/monitoreo_validacion_integral.js"></script>
+<script src="assets/js/informe_institucional.js"></script>
 </body>
 </html>

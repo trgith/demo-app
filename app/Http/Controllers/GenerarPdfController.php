@@ -15,4 +15,8 @@ class GenerarPdfController extends Controller
 
         return $pdf->download('Test.pdf');
     }
+
+    public function recibirDatos(Request $request){
+        return $request;
+    }
 }

@@ -46,6 +46,9 @@ Route::get('/monitoreo_validacion_institucional', function () {
 Route::get('/monitoreo_validacion_integral', function () {
     return view('monitoreo_seguimiento.monitoreo_validacion_integral');
 });
+Route::get('/informe_institucional', function () {
+    return view('monitoreo_seguimiento.informe_institucional');
+});
 
 
 Route::get('/test', [TestController::class, 'show']);
@@ -54,3 +57,4 @@ Route::get('/validateUser', [TestController::class, 'validateUser']);
 
 /* Generar PDF */
 Route::get('generate-pdf','GenerarPdfController@generatePDF');
+Route::post('/enviar-datos-pdf','GenerarPdfController@recibirDatos');

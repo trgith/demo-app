@@ -74,7 +74,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Informe Institucional</h5>
                         <p class="card-text">Visualización e integración de resultados de cuestionarios. Construcción de informe final por estado.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
+                        <a href="/informe_institucional" class="btn btn-primary" style="background-color: #5AB652">Ver</a>
                     </div>
                 </div>
                 <br>
