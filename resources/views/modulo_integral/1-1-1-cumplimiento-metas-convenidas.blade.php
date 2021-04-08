@@ -51,9 +51,9 @@
                         <tbody id="Cap111TablaBienes">
                         <tr>
                             <td><input type="text" class="form-control" id="Cap1NombreBien"></td>
-                            <td><input type="text" class="form-control" id="Cap1Programado2020"></td>
-                            <td><input type="text" class="form-control" id="Cap1Adquirido2020"></td>
-                            <td><input type="text" class="form-control" id="Cap1Alcanzado2020"></td>
+                            <td><input type="number" class="form-control" id="Cap1Programado2020"></td>
+                            <td><input type="number" class="form-control" id="Cap1Adquirido2020"></td>
+                            <td><input type="number" class="form-control" id="Cap1Alcanzado2020"></td>
                             <td>
                                 <button type="button" class="btn btn-primary" id="AgregarBienCap111">
                                     <i class='bx bx-plus-medical' ></i>

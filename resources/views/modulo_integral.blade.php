@@ -9,9 +9,24 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        1. Programa de Impulso al Modelo Nacional de Policía y Justicia Cívica.
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                1. Programa de Impulso al Modelo Nacional de Policía y Justicia Cívica.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
+
+
+
+
+
+
                     <div class="card-header text-dark">
                         1.1. Subprograma de Modelo Nacional de Policía
                     </div>
@@ -49,8 +64,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        1. Programa de Impulso al Modelo Nacional de Policía y Justicia Cívica.
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                1. Programa de Impulso al Modelo Nacional de Policía y Justicia Cívica.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         1.2. Subprograma de Dignificación Policial
@@ -85,8 +109,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        2. Programa de Profesionalización, Certificación y Capacitación de los Elementos Policiales y las Instituciones de Seguridad Pública
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                1. Programa de Impulso al Modelo Nacional de Policía y Justicia Cívica.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         2.1. Subprograma de Fortalecimiento de las Capacidades de Evaluación en Control de Confianza
@@ -127,8 +160,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        2. Programa de Profesionalización, Certificación y Capacitación de los Elementos Policiales y las Instituciones de Seguridad Pública
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                2. Programa de Profesionalización, Certificación y Capacitación de los Elementos Policiales y las Instituciones de Seguridad Pública
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         2.2. Subprograma de Profesionalización y Capacitación de los Elementos Policiales de Seguridad Pública.
@@ -165,8 +207,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         3.1. Subprograma de Equipamento de las Instituciones de Seguridad Pública
@@ -199,8 +250,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         3.1. Subprograma de Equipamento de las Instituciones de Seguridad Pública
@@ -233,8 +293,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="card text-white">
-                    <div class="card-header bg-dark">
-                        3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                    <div class="card-header bg-dark text-white">
+                        <div class="row">
+                            <div class="col-9">
+                                3. Programa de Equipamiento e Infraestructura de los elementos policiales y las Instituciones de Seguridad Pública.
+                            </div>
+                            <div class="col-3 text-right">
+                                <button class="btn btn-outline-success" title="Agregar Texto" id="AgregarArchivo" type="file">
+                                    <i class="fas fa-file-upload"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-dark">
                         3.2. Subprograma de Infraestructura de las Instituciones de Seguridad Pública.
