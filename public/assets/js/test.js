@@ -104,7 +104,7 @@ $(document).ready(function(){
                         break;
                     /* PARA EL CASO DE UN EVALUADOR EXTERNO */
                     case 'evaluador_externo@gmail.com':
-                        location.href = '/monitoreo_seguimiento';
+                        location.href = '/evaluacion_externa';
                         break;
                     default :
                         location.href = '/';

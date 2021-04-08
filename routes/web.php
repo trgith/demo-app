@@ -58,3 +58,14 @@ Route::get('/validateUser', [TestController::class, 'validateUser']);
 /* Generar PDF */
 Route::get('generate-pdf','GenerarPdfController@generatePDF');
 Route::post('/enviar-datos-pdf','GenerarPdfController@recibirDatos');
+
+
+/* veradero evaluador externo */
+Route::get('/evaluacion_externa', function () {
+    return view('evaluacion_externa.evaluacion_externa');
+});
+
+Route::get('/construccion_informe_institucional', function () {
+    return view('monitoreo_seguimiento.informe_institucional');
+});
+
