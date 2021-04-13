@@ -34,6 +34,7 @@
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/test.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.13.4/jquery.mask.min.js"></script>
 <script src="assets/js/monitoreo_validacion_institucional.js"></script>
 <script src="assets/js/monitoreo_validacion_integral.js"></script>
 <script src="assets/js/informe_institucional.js"></script>

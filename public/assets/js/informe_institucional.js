@@ -79,24 +79,18 @@ $(document).ready(function(){
     /* Generacion de PDF */
     $( "#GenerarPDF" ).click(function() {
 
-        for(var i = 1; i < contador; i++ ){
-
-        }
-        console.log($('#texto-1').val());
-        /*
         $.ajax({
-            url : '/enviar-datos-pdf',
+            url : '/generate-pdf',
             data : { id : 123 },
             type : 'GET',
             dataType : 'json',
             success : function(response) {
                 console.log(response);
             },
-
             error : function(xhr, status) {
                 alert('Disculpe, existió un problema');
             },
-        });*/
+        });
     });
 });
 

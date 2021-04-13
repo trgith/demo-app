@@ -19,7 +19,13 @@
                                 <div class="card-text">
                                     <form id="UserForm">
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+                                            <select class="form-control" name="email" id="email">
+                                                <option value="policia@gmail.com">policia@gmail.com</option>
+                                                <option value="funcionario_estatal@gmail.com">funcionario_estatal@gmail.com</option>
+                                                <option value="funcionario_federal@gmail.com">funcionario_federal@gmail.com</option>
+                                                <option value="enlace_estatal@gmail.com">enlace_estatal@gmail.com</option>
+                                                <option value="evaluador_externo@gmail.com">evaluador_externo@gmail.com</option>
+                                            </select>
                                         </div>
                                         <div class="form-group">
                                             <input type="password" name="pass" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Contraseña">

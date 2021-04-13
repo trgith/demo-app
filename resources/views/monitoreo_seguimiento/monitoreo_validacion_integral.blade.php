@@ -34,6 +34,11 @@
             <br>
 
             <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <h3>Policias Municipales</h3>
+                    </div>
+                </div>
                 <div class="grupos-scroll">
                     <div class="col-12">
 
@@ -194,6 +199,221 @@
                         </div>
                         <!-- Quinto grupo -->
 
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <h3>Policias Estatales</h3>
+                    </div>
+                </div>
+                <div class="grupos-scroll">
+                    <div class="col-12">
+                        <!-- Primer grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9827</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9827, 25)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas" disabled="disabled">
+                                                <a href="#">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" disabled="disabled">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Primer grupo -->
+                        <!-- Segundo grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9828</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9828, 40)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas" disabled="disabled">
+                                                <i class="fas fa-database" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" disabled="disabled">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Segundo grupo -->
+                        <!-- Tercer grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9829</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9829, 100)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas">
+                                                <a href="/generate-pdf">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" onclick="AprobarGrupo(9829)">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tercer grupo -->
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <h3>Policias Federales</h3>
+                    </div>
+                </div>
+                <div class="grupos-scroll">
+                    <div class="col-12">
+                        <!-- Primer grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9827</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9827, 25)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas" disabled="disabled">
+                                                <a href="#">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" disabled="disabled">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Primer grupo -->
+                        <!-- Segundo grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9828</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9828, 40)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas" disabled="disabled">
+                                                <i class="fas fa-database" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" disabled="disabled">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Segundo grupo -->
+                        <!-- Tercer grupo -->
+                        <div class="card text-white bg-dark mb-3 grupos" style="max-width: 18rem;">
+                            <div class="card-header">Grupo #9829</div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Ver participantes de este grupo" onclick="VerParticipantes(9829, 100)">
+                                                <i class="far fa-eye" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Descargar Datos de encuestas">
+                                                <a href="/generate-pdf">
+                                                    <i class="fas fa-database" style="color: white"></i>
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-outline-success" title="Aprobar este grupo" onclick="AprobarGrupo(9829)">
+                                                <i class="fas fa-check" style="color: white"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tercer grupo -->
                     </div>
                 </div>
             </div>

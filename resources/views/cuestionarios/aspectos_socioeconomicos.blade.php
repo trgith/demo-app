@@ -21,7 +21,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Sueldo que percibe actualmente.">
                                                     2.1 <strong>INGRESOS</strong>  ¿A cuánto asciende su sueldo mensual bruto?
                                                 </td>
                                             </tr>
@@ -106,7 +106,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Número de personas que dependen de usted actualmente, contándose a usted.">
                                                     2.2 <strong>DEPENDIENTES</strong> ¿Cuántas personas dependen de ese ingreso (incluyéndose)?
                                                 </td>
                                             </tr>
@@ -192,7 +192,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="¿Recibe algún ingreso extra por actividades fuera de su puesto laboral actual?">
                                                     2.3 <strong> INGRESO ADICIONAL</strong> ¿Cuenta con otros ingresos por actividad comercial, financiera o servicios profesionales’?
                                                 </td>
                                             </tr>
@@ -237,7 +237,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="¿Cual es la cantidad que percibe adicionalmente?">
                                                     2.3.1 ¿A cuánto asciende su ingreso adicional’?
                                                 </td>
                                             </tr>

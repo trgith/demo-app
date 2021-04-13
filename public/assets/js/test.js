@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+    $('.money').mask("#,##0.00", {reverse: true});
+
+    var primerTablaActiva = false;
+
+    $("#RespuestaConfirmada").click(function (e) {
+        alert('ok');
+    });
+
     /* Wizard */
     //Initialize tooltips
     $('.nav-tabs > li a[title]').tooltip();
@@ -80,7 +88,7 @@ $(document).ready(function(){
             type: 'GET',
             url: '/validateUser',
             data: {
-                email: $("input[name=email]").val(),
+                email: $("#email").val(),
                 name: "Test"
             },
             success: function(data){
@@ -128,6 +136,7 @@ $(document).ready(function(){
     $( "#Cap111incisoAPositivo" ).change(function() {
         $('#Cap111IncisoANegativa').hide();
         $('#Cap111IncisoAPositiva').slideToggle( "slow" );
+        primerTablaActiva = true;
     });
 
     $( "#Cap111incisoANegativo" ).change(function() {
@@ -140,10 +149,12 @@ $(document).ready(function(){
         $('#Cap1IncisoAPositiva').hide();
         $('#Cap111IncisoAPositiva').hide();
         $('#Cap111IncisoANegativa').slideToggle( "slow" );
+        primerTablaActiva = false;
     });
 
     /* Tabla de inciso B Capitulo 1*/
     $( "#AgregarBienCap111" ).click(function() {
+
         $( "#Cap111TablaBienes" ).append( "<tr>" +
                                             "<td>" + $( "#Cap1NombreBien" ).val() + "</td>" +
                                             "<td>" + $( "#Cap1Programado2020" ).val() + "</td>" +
@@ -211,7 +222,33 @@ $(document).ready(function(){
     for(var i = 2; i < 7; i++){
         $('#SeccionCap3Pre' + i).hide();
     }
+
+    $( "#Cap1Adquirido2020").change(function() {
+        /* Porcentaje automatico */
+        var adquirido = $( "#Cap1Adquirido2020" ).val();
+        var programado = $( "#Cap1Programado2020" ).val();
+        var porcentaje = ((100 * adquirido) / programado);
+        /* Porcentaje automatico */
+
+        $( "#Cap1Alcanzado2020" ).val(porcentaje + "%");
+    });
+
+
+    $("#ValidarTabla").click(function (e) {
+        if(primerTablaActiva){
+            if($('#Cap111TablaBienes tr').length  > 1) {
+                CambiarSeccion('1-1','1-1','1-1-1','1-1-2');
+            }
+            else {
+                $('#respuestaVacia').modal('toggle');
+            }
+        }
+        else {
+            CambiarSeccion('1-1','1-1','1-1-1','1-1-2');
+        }
+    });
 });
+
 
 /* Wizard */
 function nextTab(elem) {
@@ -248,7 +285,9 @@ function CambiarSeccion(capituloActual, capituloSiguiente, seccionActual, seccio
 /* Parte 1: Perfil Personal Operativo */
 /* Funcion que nos lleva a la siguiente pregunta */
 function EndPreguntaCapitulo1(siguienteSeccion, preguntaActual, tipoValidacion){
+
     var puedeContinuar = validarRespuestasCap1(preguntaActual, tipoValidacion);
+
     if(puedeContinuar){
         switch(siguienteSeccion){
             case 8:
@@ -264,7 +303,7 @@ function EndPreguntaCapitulo1(siguienteSeccion, preguntaActual, tipoValidacion){
         }
     }
     else{
-        alert('Debes responder la pregunta antes de continuar');
+        $('#respuestaVacia').modal('toggle');
     }
 }
 
@@ -322,7 +361,7 @@ function EndPreguntaCapitulo2(siguienteSeccion, preguntaActual, tipoValidacion){
         }
     }
     else{
-        alert('Debes responder la pregunta antes de continuar');
+        $('#respuestaVacia').modal('toggle');
     }
 }
 
@@ -347,7 +386,10 @@ function validarRespuestasCap2(preguntaActual, tipoValidacion){
 /* Parte 3: Profesionalización */
 function EndPreguntaCapitulo3(siguienteSeccion, preguntaActual, tipoValidacion){
     var puedeContinuar = validarRespuestasCap3(preguntaActual, tipoValidacion);
+
     if(puedeContinuar){
+
+
         switch(siguienteSeccion) {
             case 3:
                 if($('#Cap3Pre2Opc1').is(':checked')){
@@ -371,7 +413,7 @@ function EndPreguntaCapitulo3(siguienteSeccion, preguntaActual, tipoValidacion){
         }
     }
     else{
-        alert('Debes responder la pregunta antes de continuar');
+        $('#respuestaVacia').modal('toggle');
     }
 }
 
@@ -399,3 +441,9 @@ function validarRespuestasCap3(preguntaActual, tipoValidacion){
     }
     return respuesta;
 }
+
+/* Ventana de doble validación */
+function DobleValidacion1(siguienteSeccion){
+    $('#dobleValidacion').modal('toggle');
+}
+

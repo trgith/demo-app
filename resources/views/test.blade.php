@@ -19,8 +19,8 @@
                     <tbody id="Table">
                         @foreach ($test as $t)
                         <tr>
-                            <th scope="row">{{ $t->idcatalogoEstatus }}</th>
-                            <td>{{ $t->estatus }}</td>
+                            <th scope="row">{{ $t->idUsuario }}</th>
+                            <td>{{ $t->descripcion }}</td>
                         </tr>
                         @endforeach
                     </tbody>

@@ -82,19 +82,35 @@
                     <div class="col-lg-4 col-xs-12">
                         <div class="card">
                             <div class="card-header bg-dark text-white">
-                                Datos
+                                <div class="row">
+                                    <div class="col-sm">
+                                        Datos
+                                    </div>
+                                    <div class="col-sm text-right">
+                                        <button class="btn btn-outline-success" onclick="DescargarBase()">Descargar Datos</button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-body">
                                 <form>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Fecha</label>
-                                        <input class="form-control" type="datetime-local" value="2021-01-01T00:00:00" id="example-datetime-local-input">
+                                        <label for="exampleInputEmail1">Fecha Inicio</label>
+                                        <input class="form-control" type="datetime-local" value="2021-01-01T00:00:00" id="example-datetime-local-input1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Fecha Fin</label>
+                                        <input class="form-control" type="datetime-local" value="2021-01-01T00:00:00" id="example-datetime-local-input2">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Entidad Federativa</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entidad Federativa">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Grupo</label>
                                         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Grupo">
                                     </div>
-                                    <button type="button" class="btn btn-outline-dark" id="ActualizarGrafico">Generar</button>
+                                    <button type="button" class="btn btn-outline-dark" id="ActualizarGrafico">Generar Gráfico</button>
+                                    <button type="button" class="btn btn-outline-dark" id="GenerarTabla">Generar Tabla</button>
                                 </form>
                                 <br>
                                 <canvas id="myChart" width="200" height="200" style="display: none;"></canvas>

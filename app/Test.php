@@ -6,11 +6,22 @@ use Illuminate\Database\Eloquent\Model;
 
 class Test extends Model
 {
-    protected $table = 'catalogoEstatus';
+    protected $table = 'reqrecluta';
 
-    protected $primaryKey = 'idcatalogoEstatus';
+    protected $primaryKey = 'idreqRecluta';
 
     protected $fillable = [
-        'estatus'
+        'tipoPeticion',
+        'descripcion',
+        'emailCliente',
+        'idUsuario',
+        'fecha',
+        'idEstatus',
+        'fechaResuelto',
+        'fechaProceso',
+        'comentarios',
+        'etapa',
+        'comentarioTan',
+        'archivo'
     ];
 }

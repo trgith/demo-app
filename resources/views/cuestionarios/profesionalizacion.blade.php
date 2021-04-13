@@ -25,7 +25,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="¿La institución donde se encuentra laborando cuenta con un área para prepararse profesionalmente?">
                                                     3.1  ¿Su Institución cuenta con Servicio Profesional de Carrera?
                                                 </td>
                                             </tr>
@@ -80,7 +80,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Actualmente esta inscrito en el Registro Nacional de Personal de Seguridad Pública de su institución.">
                                                     3.2  ¿Se encuentra inscrito en el Registro Nacional de Personal de Seguridad Pública?
                                                 </td>
                                             </tr>
@@ -135,7 +135,7 @@
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Cuenta con una clave única de identificación personal expedida por su institución.">
                                                     3.3  ¿Cuenta con Clave Única de Identificación Personal (CUIP)?
                                                 </td>
                                             </tr>

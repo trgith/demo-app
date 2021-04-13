@@ -12,13 +12,13 @@
                                 Policía
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos1">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos1">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Policía Tercero
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos11">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos11">
                             </div>
                         </div>
                         <div class="row p-1">
@@ -26,13 +26,13 @@
                                 Policía Segundo
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos12">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos12">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Policía Primero
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos13">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos13">
                             </div>
                         </div>
                         <div class="row p-1">
@@ -40,13 +40,13 @@
                                 Suboficial
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos2">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos2">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Oficial
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos3">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos3">
                             </div>
                         </div>
                         <div class="row p-1">
@@ -54,13 +54,13 @@
                                 Subinspector
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos4">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos4">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Inspector
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos5">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos5">
                             </div>
                         </div>
                         <div class="row p-1">
@@ -68,13 +68,13 @@
                                 Inspector Jefe
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos6">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos6">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Comisario
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos7">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos7">
                             </div>
                         </div>
                         <div class="row p-1">
@@ -82,13 +82,13 @@
                                 Comisario
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos8">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos8">
                             </div>
                             <div class="col-lg-3 col-md-4">
                                 Comisario General
                             </div>
                             <div class="col-lg-3 col-md-4">
-                                <input type="text" class="form-control" id="Cap121TablaSueldos9">
+                                <input type="text" class="form-control money" id="Cap121TablaSueldos9">
                             </div>
                         </div>
 

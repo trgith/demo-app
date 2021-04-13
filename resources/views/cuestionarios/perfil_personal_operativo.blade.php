@@ -11,13 +11,14 @@
 
                                     <!-- Pregunta 1 -->
                                     <div id="SeccionCap1Pre1">
+                                        <strong>(14%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 14.28%" aria-valuenow="14.28" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="El puesto en el cual esta contratado actualmente.">
                                                     1.1 <strong>FUNCIÓN</strong>. ¿Cuál es la función que desempeña actualmente?
                                                 </td>
                                             </tr>
@@ -66,13 +67,14 @@
 
                                     <!-- Pregunta 2 -->
                                     <div id="SeccionCap1Pre2">
+                                        <strong>(28%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 28.56%" aria-valuenow="28.56" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Identidad sexual">
                                                     1.2 <strong>SEXO</strong>
                                                 </td>
                                             </tr>
@@ -111,13 +113,14 @@
 
                                     <!-- Pregunta 3 -->
                                     <div id="SeccionCap1Pre3">
+                                        <strong>(42%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 42.84%" aria-valuenow="42.84" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="La edad con la que cuenta actualmente.">
                                                     1.3 <strong> EDAD ESPECIFIQUE</strong>
                                                 </td>
                                             </tr>
@@ -150,13 +153,14 @@
 
                                     <!-- Pregunta 4 -->
                                     <div id="SeccionCap1Pre4">
+                                        <strong>(57%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 57.12%" aria-valuenow="57.12" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Situación civil en la que se encuentra actualmente.">
                                                     1.4 <strong>SITUACIÓN PERSONAL</strong>
                                                 </td>
                                             </tr>
@@ -215,13 +219,14 @@
 
                                     <!-- Pregunta 5 -->
                                     <div id="SeccionCap1Pre5">
+                                        <strong>(71%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 71.4%" aria-valuenow="71.4" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Maximo grado de estudios certificado por alguna entidad educativa.">
                                                     1.5 <strong>ESCOLARIDAD </strong>(Último grado de estudios)
                                                 </td>
                                             </tr>
@@ -350,13 +355,14 @@
 
                                     <!-- Pregunta 6 -->
                                     <div id="SeccionCap1Pre6">
+                                        <strong>(85%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 85.68%" aria-valuenow="85.68" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Numero de activos bajo su cargo actualmente.">
                                                     1.6 <strong>EN SU TRABAJO </strong> ¿Cuántas personas tiene bajo su mando o responsabilidad?
                                                 </td>
                                             </tr>
@@ -425,13 +431,14 @@
 
                                     <!-- Pregunta 7 -->
                                     <div id="SeccionCap1Pre7">
+                                        <strong>(100%)</strong>
                                         <div class="progress">
                                             <div class="progress-bar progreso" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <table class="table" rules="none">
                                             <tbody>
                                             <tr>
-                                                <td colspan="3">
+                                                <td colspan="3" title="Cantidad de años que lleva laborando actualmente en su trabajo.">
                                                     1.7 <strong>ANTIGÜEDAD</strong>  ¿Cuánto tiempo tiene trabajando en su actual institución?
                                                 </td>
                                             </tr>

@@ -53,7 +53,7 @@
                             <td><input type="text" class="form-control" id="Cap1NombreBien"></td>
                             <td><input type="number" class="form-control" id="Cap1Programado2020"></td>
                             <td><input type="number" class="form-control" id="Cap1Adquirido2020"></td>
-                            <td><input type="number" class="form-control" id="Cap1Alcanzado2020"></td>
+                            <td><input type="text" class="form-control" id="Cap1Alcanzado2020" disabled="disabled"></td>
                             <td>
                                 <button type="button" class="btn btn-primary" id="AgregarBienCap111">
                                     <i class='bx bx-plus-medical' ></i>
@@ -68,7 +68,7 @@
 
     <!-- Botones para enviar -->
     <div class="d-flex justify-content-around" id="contenedorCambiarSeccion">
-        <button type="button" class="btn btn-primary botonCambiarSeccion" onclick="CambiarSeccion('1-1','1-1','1-1-1','1-1-2')">
+        <button type="button" class="btn btn-primary botonCambiarSeccion" id="ValidarTabla">
             Siguiente Sección <i class='bx bx-skip-next'></i>
         </button>
         <button class="btn btn-warning botonCambiandoSeccion" type="button" disabled>
