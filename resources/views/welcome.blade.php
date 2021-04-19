@@ -22,7 +22,6 @@
                                             <select class="form-control" name="email" id="email">
                                                 <option value="policia@gmail.com">policia@gmail.com</option>
                                                 <option value="funcionario_estatal@gmail.com">funcionario_estatal@gmail.com</option>
-                                                <option value="funcionario_federal@gmail.com">funcionario_federal@gmail.com</option>
                                                 <option value="enlace_estatal@gmail.com">enlace_estatal@gmail.com</option>
                                                 <option value="evaluador_externo@gmail.com">evaluador_externo@gmail.com</option>
                                             </select>

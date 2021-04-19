@@ -102,17 +102,13 @@ $(document).ready(function(){
                     case 'funcionario_estatal@gmail.com':
                         location.href = '/modulo_integral';
                         break;
-                    /* PARA EL CASO DE UN FUNCIONARIO FEDERAL */
-                    case 'funcionario_federal@gmail.com':
-                        location.href = '/modulo_integral';
+                    /* PARA EL CASO DE UN EVALUADOR EXTERNO */
+                    case 'evaluador_externo@gmail.com':
+                        location.href = '/evaluacion_externa';
                         break;
                     /* PARA EL CASO DE UN ENLACE ESTATAL */
                     case 'enlace_estatal@gmail.com':
                         location.href = '/monitoreo_seguimiento';
-                        break;
-                    /* PARA EL CASO DE UN EVALUADOR EXTERNO */
-                    case 'evaluador_externo@gmail.com':
-                        location.href = '/evaluacion_externa';
                         break;
                     default :
                         location.href = '/';
